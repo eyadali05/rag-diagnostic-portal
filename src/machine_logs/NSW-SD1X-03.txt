@@ -1,0 +1,469 @@
+================================================================================
+NSW AUTOMATION - DISPENSING EQUIPMENT EVENT LOG
+================================================================================
+Equipment ID      : NSW-SD1X-03
+Equipment Model   : SD1-X Automated Intelligent Micro-Dispenser
+Software          : nFlow Dispensing Software (Windows 10)
+Fluid Delivery    : SynchroPULSE-MICRO
+Nozzle            : S50-08C  (inner diameter 80 um)
+Material          : Solder Paste T6 Sn63Pb37
+Target Dot Size   : 85 um
+Target Dot Weight : 0.0195 mg
+Log Start         : 2026-09-15 06:00:00
+Log End           : 2026-09-15 14:00:41
+================================================================================
+Columns: TIMESTAMP | EQUIPMENT | CATEGORY | LEVEL | EVENT | DATA
+Category: nFlow log tabs - SYSTEM, PROCESS, EVENT, ALARM, EXCEP, NOTIFY, CTRL
+Levels  : INFO = normal, WARN = out of tolerance, ERROR = process stopped
+================================================================================
+
+2026-09-15 06:00:00 | NSW-SD1X-03  | SYSTEM  | INFO  | SYSTEM_START_UP        | nFlow software started, recipe=PROD_03.xml
+2026-09-15 06:00:20 | NSW-SD1X-03  | SYSTEM  | INFO  | MOTION_HOMING          | axis=XYZ status=PASS
+2026-09-15 06:00:59 | NSW-SD1X-03  | CTRL    | INFO  | PUMP_CONNECT           | pump=SynchroPULSE-MICRO status=CONNECTED
+2026-09-15 06:01:19 | NSW-SD1X-03  | PARA    | INFO  | REGULATOR_SET          | Reg0=0.72MPa Reg1=0.10MPa
+2026-09-15 06:01:42 | NSW-SD1X-03  | PARA    | INFO  | TEMPERATURE_SET        | stabilizer_setpoint=23.5C
+2026-09-15 06:02:05 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_XY_CAL          | offset_x=0.012mm offset_y=-0.008mm status=PASS
+2026-09-15 06:02:29 | NSW-SD1X-03  | EVENT   | INFO  | Z_TOUCH_CAL            | z_touch=12.431mm encoder_res=0.002mm status=PASS
+2026-09-15 06:02:50 | NSW-SD1X-03  | EVENT   | INFO  | DYNAMIC_JET_CAL        | pitch=1.000mm dot_count=1 status=PASS
+2026-09-15 06:03:12 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 unit_interval=0 status=PASS
+2026-09-15 06:03:32 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:03:55 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=94% theta=0.3deg status=PASS
+2026-09-15 06:04:25 | NSW-SD1X-03  | EVENT   | INFO  | HEIGHT_ALIGN_BOARD     | mode=AVERAGE points=4 offset=0.03mm status=PASS
+2026-09-15 06:04:42 | NSW-SD1X-03  | PROCESS | INFO  | PROCESS_RUN            | mode=NORMAL run_select=CONTINUOUS
+2026-09-15 06:04:56 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=40 dot_dia=87.3um weight=0.0188mg f_press=0.709MPa temp=23.5C board=1
+2026-09-15 06:04:56 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:04:56 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 06:04:56 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=1 units=900 defects=0
+2026-09-15 06:04:56 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=87% status=PASS
+2026-09-15 06:06:38 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=108 dot_dia=85.0um weight=0.0197mg f_press=0.719MPa temp=23.6C board=2
+2026-09-15 06:07:58 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=166 dot_dia=83.9um weight=0.0201mg f_press=0.734MPa temp=23.4C board=2
+2026-09-15 06:09:26 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=227 dot_dia=85.0um weight=0.0196mg f_press=0.719MPa temp=23.5C board=2
+2026-09-15 06:10:44 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=273 dot_dia=86.0um weight=0.0194mg f_press=0.726MPa temp=23.4C board=2
+2026-09-15 06:12:10 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=328 dot_dia=85.2um weight=0.0191mg f_press=0.723MPa temp=23.4C board=2
+2026-09-15 06:13:30 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=395 dot_dia=86.0um weight=0.0190mg f_press=0.720MPa temp=23.5C board=2
+2026-09-15 06:15:03 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=443 dot_dia=83.6um weight=0.0196mg f_press=0.709MPa temp=23.4C board=2
+2026-09-15 06:16:45 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=508 dot_dia=87.3um weight=0.0189mg f_press=0.717MPa temp=23.4C board=2
+2026-09-15 06:16:45 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:18:04 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=573 dot_dia=85.1um weight=0.0200mg f_press=0.734MPa temp=23.6C board=2
+2026-09-15 06:19:46 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=639 dot_dia=86.0um weight=0.0193mg f_press=0.722MPa temp=23.4C board=2
+2026-09-15 06:21:04 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=708 dot_dia=84.3um weight=0.0192mg f_press=0.719MPa temp=23.5C board=2
+2026-09-15 06:22:32 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=766 dot_dia=87.4um weight=0.0201mg f_press=0.709MPa temp=23.4C board=2
+2026-09-15 06:24:11 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=820 dot_dia=85.1um weight=0.0192mg f_press=0.714MPa temp=23.6C board=2
+2026-09-15 06:25:35 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=889 dot_dia=86.9um weight=0.0202mg f_press=0.719MPa temp=23.5C board=2
+2026-09-15 06:27:08 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=939 dot_dia=82.9um weight=0.0201mg f_press=0.717MPa temp=23.5C board=2
+2026-09-15 06:27:08 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=2 units=900 defects=0
+2026-09-15 06:27:08 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=79% status=PASS
+2026-09-15 06:28:42 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=990 dot_dia=84.7um weight=0.0191mg f_press=0.724MPa temp=23.6C board=3
+2026-09-15 06:30:11 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1051 dot_dia=82.6um weight=0.0190mg f_press=0.718MPa temp=23.6C board=3
+2026-09-15 06:30:11 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:31:49 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1119 dot_dia=83.0um weight=0.0190mg f_press=0.708MPa temp=23.4C board=3
+2026-09-15 06:33:28 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1163 dot_dia=82.9um weight=0.0199mg f_press=0.717MPa temp=23.4C board=3
+2026-09-15 06:34:55 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1207 dot_dia=83.9um weight=0.0191mg f_press=0.715MPa temp=23.5C board=3
+2026-09-15 06:34:55 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 06:36:11 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1274 dot_dia=84.1um weight=0.0201mg f_press=0.725MPa temp=23.5C board=3
+2026-09-15 06:37:40 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1328 dot_dia=85.2um weight=0.0202mg f_press=0.709MPa temp=23.5C board=3
+2026-09-15 06:39:13 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1383 dot_dia=85.2um weight=0.0197mg f_press=0.718MPa temp=23.6C board=3
+2026-09-15 06:40:42 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1439 dot_dia=83.2um weight=0.0194mg f_press=0.714MPa temp=23.4C board=3
+2026-09-15 06:42:08 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1503 dot_dia=86.0um weight=0.0196mg f_press=0.714MPa temp=23.5C board=3
+2026-09-15 06:42:08 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:42:13 | NSW-SD1X-03  | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=1503 vision_score=LOW
+2026-09-15 06:43:36 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1549 dot_dia=86.5um weight=0.0197mg f_press=0.729MPa temp=23.5C board=3
+2026-09-15 06:43:36 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:45:03 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1596 dot_dia=85.7um weight=0.0198mg f_press=0.713MPa temp=23.6C board=3
+2026-09-15 06:46:25 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1644 dot_dia=85.6um weight=0.0200mg f_press=0.720MPa temp=23.5C board=3
+2026-09-15 06:48:05 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1687 dot_dia=82.8um weight=0.0190mg f_press=0.713MPa temp=23.4C board=3
+2026-09-15 06:49:28 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1744 dot_dia=84.1um weight=0.0195mg f_press=0.726MPa temp=23.4C board=3
+2026-09-15 06:50:52 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1788 dot_dia=86.2um weight=0.0198mg f_press=0.713MPa temp=23.4C board=3
+2026-09-15 06:52:20 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1853 dot_dia=87.5um weight=0.0200mg f_press=0.715MPa temp=23.5C board=3
+2026-09-15 06:52:20 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=3 units=900 defects=0
+2026-09-15 06:52:20 | NSW-SD1X-03  | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=72% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 06:54:05 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1898 dot_dia=84.5um weight=0.0191mg f_press=0.710MPa temp=23.5C board=4
+2026-09-15 06:55:46 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1950 dot_dia=87.4um weight=0.0187mg f_press=0.717MPa temp=23.6C board=4
+2026-09-15 06:57:24 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2011 dot_dia=86.2um weight=0.0190mg f_press=0.734MPa temp=23.4C board=4
+2026-09-15 06:57:24 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:59:00 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2074 dot_dia=83.3um weight=0.0202mg f_press=0.733MPa temp=23.6C board=4
+2026-09-15 07:00:23 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2135 dot_dia=84.3um weight=0.0192mg f_press=0.719MPa temp=23.4C board=4
+2026-09-15 07:01:58 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2187 dot_dia=86.5um weight=0.0187mg f_press=0.718MPa temp=23.5C board=4
+2026-09-15 07:02:03 | NSW-SD1X-03  | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=2187 vision_score=LOW
+2026-09-15 07:03:14 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2251 dot_dia=86.0um weight=0.0198mg f_press=0.722MPa temp=23.4C board=4
+2026-09-15 07:04:31 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2292 dot_dia=87.4um weight=0.0192mg f_press=0.725MPa temp=23.6C board=4
+2026-09-15 07:06:08 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2349 dot_dia=84.9um weight=0.0189mg f_press=0.721MPa temp=23.5C board=4
+2026-09-15 07:07:48 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2412 dot_dia=82.6um weight=0.0199mg f_press=0.731MPa temp=23.5C board=4
+2026-09-15 07:07:48 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 07:09:18 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2470 dot_dia=85.2um weight=0.0196mg f_press=0.726MPa temp=23.5C board=4
+2026-09-15 07:10:56 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2515 dot_dia=85.5um weight=0.0201mg f_press=0.719MPa temp=23.6C board=4
+2026-09-15 07:10:56 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 07:12:20 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2571 dot_dia=84.8um weight=0.0196mg f_press=0.729MPa temp=23.6C board=4
+2026-09-15 07:13:35 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2613 dot_dia=85.6um weight=0.0193mg f_press=0.723MPa temp=23.5C board=4
+2026-09-15 07:15:02 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2662 dot_dia=86.4um weight=0.0198mg f_press=0.711MPa temp=23.4C board=4
+2026-09-15 07:16:20 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2707 dot_dia=82.7um weight=0.0197mg f_press=0.708MPa temp=23.6C board=4
+2026-09-15 07:16:20 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=4 units=900 defects=0
+2026-09-15 07:16:20 | NSW-SD1X-03  | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=76% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 07:17:41 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2763 dot_dia=86.7um weight=0.0196mg f_press=0.708MPa temp=23.5C board=5
+2026-09-15 07:18:57 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2809 dot_dia=82.8um weight=0.0197mg f_press=0.716MPa temp=23.6C board=5
+2026-09-15 07:20:38 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2879 dot_dia=82.8um weight=0.0200mg f_press=0.708MPa temp=23.5C board=5
+2026-09-15 07:22:18 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2921 dot_dia=83.8um weight=0.0200mg f_press=0.726MPa temp=23.4C board=5
+2026-09-15 07:23:39 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2967 dot_dia=86.1um weight=0.0189mg f_press=0.733MPa temp=23.5C board=5
+2026-09-15 07:25:12 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3010 dot_dia=86.3um weight=0.0190mg f_press=0.724MPa temp=23.5C board=5
+2026-09-15 07:25:12 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 07:26:48 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3055 dot_dia=87.0um weight=0.0198mg f_press=0.719MPa temp=23.4C board=5
+2026-09-15 07:26:48 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 07:28:24 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3105 dot_dia=84.7um weight=0.0203mg f_press=0.710MPa temp=23.5C board=5
+2026-09-15 07:30:06 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3164 dot_dia=84.6um weight=0.0199mg f_press=0.716MPa temp=23.6C board=5
+2026-09-15 07:31:33 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3218 dot_dia=83.7um weight=0.0202mg f_press=0.728MPa temp=23.6C board=5
+2026-09-15 07:31:38 | NSW-SD1X-03  | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=3218 vision_score=LOW
+2026-09-15 07:32:49 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3267 dot_dia=85.1um weight=0.0196mg f_press=0.734MPa temp=23.6C board=5
+2026-09-15 07:34:10 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3315 dot_dia=86.6um weight=0.0188mg f_press=0.730MPa temp=23.5C board=5
+2026-09-15 07:35:43 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3359 dot_dia=82.6um weight=0.0190mg f_press=0.732MPa temp=23.5C board=5
+2026-09-15 07:37:05 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3428 dot_dia=82.9um weight=0.0200mg f_press=0.712MPa temp=23.5C board=5
+2026-09-15 07:38:30 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3486 dot_dia=86.7um weight=0.0190mg f_press=0.728MPa temp=23.5C board=5
+2026-09-15 07:40:05 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3527 dot_dia=85.4um weight=0.0199mg f_press=0.714MPa temp=23.4C board=5
+2026-09-15 07:40:05 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 07:41:48 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3574 dot_dia=86.9um weight=0.0194mg f_press=0.729MPa temp=23.6C board=5
+2026-09-15 07:43:32 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3615 dot_dia=84.4um weight=0.0199mg f_press=0.706MPa temp=23.5C board=5
+2026-09-15 07:43:32 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 07:43:32 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=5 units=900 defects=0
+2026-09-15 07:43:32 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=88% status=PASS
+2026-09-15 07:45:03 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3669 dot_dia=85.9um weight=0.0190mg f_press=0.726MPa temp=23.6C board=6
+2026-09-15 07:46:20 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3711 dot_dia=84.5um weight=0.0192mg f_press=0.712MPa temp=23.4C board=6
+2026-09-15 07:47:52 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3755 dot_dia=85.0um weight=0.0189mg f_press=0.717MPa temp=23.6C board=6
+2026-09-15 07:49:13 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3818 dot_dia=83.5um weight=0.0197mg f_press=0.720MPa temp=23.5C board=6
+2026-09-15 07:50:36 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3879 dot_dia=87.2um weight=0.0192mg f_press=0.728MPa temp=23.4C board=6
+2026-09-15 07:51:57 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3930 dot_dia=82.6um weight=0.0196mg f_press=0.715MPa temp=23.5C board=6
+2026-09-15 07:53:26 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3991 dot_dia=87.2um weight=0.0194mg f_press=0.724MPa temp=23.4C board=6
+2026-09-15 07:55:08 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4035 dot_dia=83.7um weight=0.0199mg f_press=0.708MPa temp=23.5C board=6
+2026-09-15 07:55:08 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 07:56:23 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4085 dot_dia=84.0um weight=0.0200mg f_press=0.715MPa temp=23.5C board=6
+2026-09-15 07:57:44 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4129 dot_dia=85.2um weight=0.0199mg f_press=0.721MPa temp=23.5C board=6
+2026-09-15 07:59:11 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4178 dot_dia=82.7um weight=0.0198mg f_press=0.722MPa temp=23.4C board=6
+2026-09-15 08:00:34 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4226 dot_dia=82.5um weight=0.0197mg f_press=0.707MPa temp=23.5C board=6
+2026-09-15 08:02:00 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4273 dot_dia=86.9um weight=0.0187mg f_press=0.730MPa temp=23.5C board=6
+2026-09-15 08:03:37 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4318 dot_dia=86.9um weight=0.0192mg f_press=0.708MPa temp=23.5C board=6
+2026-09-15 08:05:09 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4368 dot_dia=83.7um weight=0.0188mg f_press=0.732MPa temp=23.5C board=6
+2026-09-15 08:06:24 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4424 dot_dia=85.6um weight=0.0193mg f_press=0.716MPa temp=23.4C board=6
+2026-09-15 08:07:47 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4481 dot_dia=86.6um weight=0.0201mg f_press=0.731MPa temp=23.4C board=6
+2026-09-15 08:09:12 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4551 dot_dia=82.9um weight=0.0197mg f_press=0.731MPa temp=23.5C board=6
+2026-09-15 08:09:12 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 08:09:12 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=6 units=900 defects=0
+2026-09-15 08:09:12 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=97% status=PASS
+2026-09-15 08:10:34 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4610 dot_dia=84.6um weight=0.0196mg f_press=0.718MPa temp=23.5C board=7
+2026-09-15 08:11:55 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4654 dot_dia=85.9um weight=0.0196mg f_press=0.724MPa temp=23.4C board=7
+2026-09-15 08:13:26 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4714 dot_dia=87.1um weight=0.0194mg f_press=0.732MPa temp=23.6C board=7
+2026-09-15 08:14:51 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4780 dot_dia=86.1um weight=0.0196mg f_press=0.708MPa temp=23.4C board=7
+2026-09-15 08:16:30 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4843 dot_dia=87.4um weight=0.0202mg f_press=0.715MPa temp=23.5C board=7
+2026-09-15 08:16:30 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 08:18:14 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4883 dot_dia=83.4um weight=0.0190mg f_press=0.727MPa temp=23.4C board=7
+2026-09-15 08:19:37 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4923 dot_dia=85.5um weight=0.0197mg f_press=0.723MPa temp=23.4C board=7
+2026-09-15 08:21:07 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4968 dot_dia=84.8um weight=0.0200mg f_press=0.709MPa temp=23.5C board=7
+2026-09-15 08:22:26 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5037 dot_dia=84.5um weight=0.0191mg f_press=0.710MPa temp=23.6C board=7
+2026-09-15 08:22:26 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 08:24:04 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5107 dot_dia=83.5um weight=0.0190mg f_press=0.725MPa temp=23.4C board=7
+2026-09-15 08:25:34 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5171 dot_dia=87.1um weight=0.0201mg f_press=0.725MPa temp=23.5C board=7
+2026-09-15 08:27:01 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5228 dot_dia=87.4um weight=0.0194mg f_press=0.726MPa temp=23.6C board=7
+2026-09-15 08:28:41 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5296 dot_dia=85.0um weight=0.0190mg f_press=0.707MPa temp=23.7C board=7
+2026-09-15 08:30:08 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5366 dot_dia=84.8um weight=0.0189mg f_press=0.734MPa temp=23.7C board=7
+2026-09-15 08:31:35 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5415 dot_dia=84.3um weight=0.0201mg f_press=0.731MPa temp=23.6C board=7
+2026-09-15 08:31:35 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=7 units=900 defects=0
+2026-09-15 08:31:35 | NSW-SD1X-03  | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=71% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 08:33:18 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5458 dot_dia=85.3um weight=0.0202mg f_press=0.710MPa temp=23.7C board=8
+2026-09-15 08:33:18 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=8 units=900 defects=0
+2026-09-15 08:33:18 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=88% status=PASS
+2026-09-15 08:34:55 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5512 dot_dia=84.7um weight=0.0196mg f_press=0.721MPa temp=23.6C board=9
+2026-09-15 08:34:55 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 08:36:16 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5574 dot_dia=84.8um weight=0.0191mg f_press=0.731MPa temp=23.8C board=9
+2026-09-15 08:37:34 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5636 dot_dia=86.4um weight=0.0201mg f_press=0.708MPa temp=23.7C board=9
+2026-09-15 08:39:05 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5681 dot_dia=86.1um weight=0.0193mg f_press=0.723MPa temp=23.7C board=9
+2026-09-15 08:40:41 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5722 dot_dia=84.1um weight=0.0193mg f_press=0.730MPa temp=23.9C board=9
+2026-09-15 08:42:20 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5792 dot_dia=84.4um weight=0.0195mg f_press=0.733MPa temp=23.9C board=9
+2026-09-15 08:43:43 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5851 dot_dia=86.1um weight=0.0199mg f_press=0.706MPa temp=24.0C board=9
+2026-09-15 08:45:16 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5891 dot_dia=85.9um weight=0.0199mg f_press=0.725MPa temp=23.9C board=9
+2026-09-15 08:46:50 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5932 dot_dia=84.8um weight=0.0205mg f_press=0.724MPa temp=23.9C board=9
+2026-09-15 08:48:32 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5974 dot_dia=86.9um weight=0.0201mg f_press=0.707MPa temp=23.9C board=9
+2026-09-15 08:49:52 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6032 dot_dia=87.3um weight=0.0197mg f_press=0.710MPa temp=24.0C board=9
+2026-09-15 08:49:52 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 08:49:52 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 08:51:21 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6082 dot_dia=84.1um weight=0.0198mg f_press=0.727MPa temp=24.1C board=9
+2026-09-15 08:52:38 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6125 dot_dia=84.3um weight=0.0206mg f_press=0.727MPa temp=24.0C board=9
+2026-09-15 08:54:09 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6183 dot_dia=85.2um weight=0.0196mg f_press=0.718MPa temp=24.0C board=9
+2026-09-15 08:55:26 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6232 dot_dia=89.0um weight=0.0204mg f_press=0.720MPa temp=24.2C board=9
+2026-09-15 08:56:49 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6290 dot_dia=86.1um weight=0.0210mg f_press=0.721MPa temp=24.0C board=9
+2026-09-15 08:58:19 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6336 dot_dia=87.5um weight=0.0197mg f_press=0.720MPa temp=24.2C board=9
+2026-09-15 08:58:19 | NSW-SD1X-03  | EXCEP   | WARN  | S_LIMIT_NEG            | software negative limit reached | axis=X
+2026-09-15 08:58:19 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=9 units=900 defects=0
+2026-09-15 08:58:19 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=93% status=PASS
+2026-09-15 08:59:59 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6401 dot_dia=84.6um weight=0.0201mg f_press=0.723MPa temp=24.2C board=10
+2026-09-15 09:00:04 | NSW-SD1X-03  | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=6401 vision_score=LOW
+2026-09-15 09:01:20 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6458 dot_dia=84.8um weight=0.0199mg f_press=0.725MPa temp=24.2C board=10
+2026-09-15 09:01:25 | NSW-SD1X-03  | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=6458 vision_score=LOW
+2026-09-15 09:02:56 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6524 dot_dia=87.5um weight=0.0201mg f_press=0.715MPa temp=24.4C board=10
+2026-09-15 09:02:56 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:04:21 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6568 dot_dia=87.1um weight=0.0203mg f_press=0.732MPa temp=24.2C board=10
+2026-09-15 09:06:04 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6637 dot_dia=87.1um weight=0.0210mg f_press=0.731MPa temp=24.4C board=10
+2026-09-15 09:07:28 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6695 dot_dia=87.7um weight=0.0207mg f_press=0.722MPa temp=24.2C board=10
+2026-09-15 09:09:11 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6745 dot_dia=85.7um weight=0.0197mg f_press=0.729MPa temp=24.5C board=10
+2026-09-15 09:10:52 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6810 dot_dia=86.0um weight=0.0206mg f_press=0.710MPa temp=24.3C board=10
+2026-09-15 09:12:17 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6861 dot_dia=85.5um weight=0.0201mg f_press=0.726MPa temp=24.5C board=10
+2026-09-15 09:13:38 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6907 dot_dia=87.1um weight=0.0200mg f_press=0.721MPa temp=24.3C board=10
+2026-09-15 09:14:53 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6962 dot_dia=86.0um weight=0.0212mg f_press=0.729MPa temp=24.4C board=10
+2026-09-15 09:16:32 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7018 dot_dia=85.8um weight=0.0210mg f_press=0.715MPa temp=24.6C board=10
+2026-09-15 09:16:32 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:18:10 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7067 dot_dia=89.9um weight=0.0204mg f_press=0.707MPa temp=24.5C board=10
+2026-09-15 09:19:44 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7131 dot_dia=90.2um weight=0.0204mg f_press=0.731MPa temp=24.5C board=10
+2026-09-15 09:21:17 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7180 dot_dia=86.7um weight=0.0209mg f_press=0.727MPa temp=24.5C board=10
+2026-09-15 09:22:46 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7250 dot_dia=86.5um weight=0.0203mg f_press=0.725MPa temp=24.5C board=10
+2026-09-15 09:22:46 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 09:22:46 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=10 units=900 defects=0
+2026-09-15 09:22:46 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=86% status=PASS
+2026-09-15 09:24:18 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7299 dot_dia=86.5um weight=0.0204mg f_press=0.716MPa temp=24.7C board=11
+2026-09-15 09:25:42 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7354 dot_dia=88.1um weight=0.0205mg f_press=0.723MPa temp=24.6C board=11
+2026-09-15 09:27:09 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7412 dot_dia=86.8um weight=0.0207mg f_press=0.707MPa temp=24.7C board=11
+2026-09-15 09:28:38 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7473 dot_dia=90.3um weight=0.0205mg f_press=0.723MPa temp=24.8C board=11
+2026-09-15 09:30:22 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7542 dot_dia=86.7um weight=0.0208mg f_press=0.727MPa temp=24.9C board=11
+2026-09-15 09:30:22 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:31:46 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7589 dot_dia=88.6um weight=0.0212mg f_press=0.725MPa temp=24.7C board=11
+2026-09-15 09:33:09 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7654 dot_dia=89.9um weight=0.0207mg f_press=0.732MPa temp=24.9C board=11
+2026-09-15 09:34:39 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7699 dot_dia=88.1um weight=0.0209mg f_press=0.706MPa temp=24.9C board=11
+2026-09-15 09:36:12 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7749 dot_dia=90.7um weight=0.0203mg f_press=0.709MPa temp=25.0C board=11
+2026-09-15 09:37:36 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7806 dot_dia=88.6um weight=0.0208mg f_press=0.721MPa temp=25.0C board=11
+2026-09-15 09:38:53 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7859 dot_dia=89.7um weight=0.0215mg f_press=0.715MPa temp=25.0C board=11
+2026-09-15 09:40:30 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7917 dot_dia=87.0um weight=0.0213mg f_press=0.712MPa temp=25.1C board=11
+2026-09-15 09:42:04 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7987 dot_dia=91.1um weight=0.0212mg f_press=0.719MPa temp=24.9C board=11
+2026-09-15 09:43:40 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8048 dot_dia=88.8um weight=0.0216mg f_press=0.729MPa temp=25.0C board=11
+2026-09-15 09:43:40 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:44:59 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8092 dot_dia=90.2um weight=0.0218mg f_press=0.731MPa temp=24.9C board=11
+2026-09-15 09:46:23 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8142 dot_dia=87.9um weight=0.0213mg f_press=0.717MPa temp=25.1C board=11
+2026-09-15 09:46:23 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=11 units=900 defects=0
+2026-09-15 09:46:23 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=95% status=PASS
+2026-09-15 09:47:47 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8184 dot_dia=90.8um weight=0.0219mg f_press=0.732MPa temp=25.2C board=12
+2026-09-15 09:49:18 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8241 dot_dia=88.6um weight=0.0206mg f_press=0.717MPa temp=25.1C board=12
+2026-09-15 09:49:23 | NSW-SD1X-03  | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=8241 vision_score=LOW
+2026-09-15 09:50:50 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8288 dot_dia=91.8um weight=0.0210mg f_press=0.729MPa temp=25.3C board=12
+2026-09-15 09:52:25 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8349 dot_dia=89.3um weight=0.0211mg f_press=0.715MPa temp=25.2C board=12
+2026-09-15 09:53:57 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8416 dot_dia=91.8um weight=0.0221mg f_press=0.717MPa temp=25.2C board=12
+2026-09-15 09:53:57 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 09:55:14 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8460 dot_dia=92.2um weight=0.0207mg f_press=0.724MPa temp=25.3C board=12
+2026-09-15 09:56:42 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8519 dot_dia=91.2um weight=0.0221mg f_press=0.730MPa temp=25.4C board=12
+2026-09-15 09:56:42 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:58:14 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8559 dot_dia=88.8um weight=0.0212mg f_press=0.729MPa temp=25.3C board=12
+2026-09-15 09:58:14 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:59:36 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8600 dot_dia=92.6um weight=0.0210mg f_press=0.726MPa temp=25.4C board=12
+2026-09-15 10:01:13 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8663 dot_dia=92.9um weight=0.0216mg f_press=0.716MPa temp=25.3C board=12
+2026-09-15 10:02:52 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8705 dot_dia=88.2um weight=0.0214mg f_press=0.728MPa temp=25.5C board=12
+2026-09-15 10:04:28 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8754 dot_dia=91.3um weight=0.0208mg f_press=0.733MPa temp=25.5C board=12
+2026-09-15 10:06:00 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8817 dot_dia=90.7um weight=0.0215mg f_press=0.728MPa temp=25.5C board=12
+2026-09-15 10:07:40 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8866 dot_dia=91.8um weight=0.0210mg f_press=0.714MPa temp=25.5C board=12
+2026-09-15 10:08:56 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8915 dot_dia=91.2um weight=0.0218mg f_press=0.724MPa temp=25.6C board=12
+2026-09-15 10:10:20 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8963 dot_dia=88.6um weight=0.0210mg f_press=0.720MPa temp=25.6C board=12
+2026-09-15 10:12:02 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9026 dot_dia=91.6um weight=0.0221mg f_press=0.713MPa temp=25.7C board=12
+2026-09-15 10:12:02 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 10:12:02 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=12 units=900 defects=0
+2026-09-15 10:12:02 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=84% status=PASS
+2026-09-15 10:13:22 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9093 dot_dia=91.0um weight=0.0221mg f_press=0.713MPa temp=25.7C board=13
+2026-09-15 10:15:07 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9146 dot_dia=89.3um weight=0.0225mg f_press=0.710MPa temp=25.6C board=13
+2026-09-15 10:16:36 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9187 dot_dia=91.7um weight=0.0212mg f_press=0.727MPa temp=25.8C board=13
+2026-09-15 10:17:54 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9257 dot_dia=91.2um weight=0.0218mg f_press=0.707MPa temp=25.7C board=13
+2026-09-15 10:19:21 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9310 dot_dia=90.1um weight=0.0217mg f_press=0.725MPa temp=25.7C board=13
+2026-09-15 10:20:50 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9353 dot_dia=91.7um weight=0.0216mg f_press=0.717MPa temp=25.9C board=13
+2026-09-15 10:22:35 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9401 dot_dia=92.4um weight=0.0221mg f_press=0.730MPa temp=25.7C board=13
+2026-09-15 10:24:10 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9462 dot_dia=92.7um weight=0.0219mg f_press=0.722MPa temp=25.8C board=13
+2026-09-15 10:25:35 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9502 dot_dia=90.7um weight=0.0228mg f_press=0.725MPa temp=25.7C board=13
+2026-09-15 10:25:35 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 10:25:40 | NSW-SD1X-03  | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=9502 vision_score=LOW
+2026-09-15 10:26:53 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9550 dot_dia=91.0um weight=0.0223mg f_press=0.721MPa temp=25.9C board=13
+2026-09-15 10:26:53 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 10:28:10 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9609 dot_dia=94.1um weight=0.0222mg f_press=0.707MPa temp=25.8C board=13
+2026-09-15 10:28:10 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 10:29:28 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9669 dot_dia=91.3um weight=0.0222mg f_press=0.708MPa temp=26.0C board=13
+2026-09-15 10:31:11 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9711 dot_dia=90.9um weight=0.0215mg f_press=0.709MPa temp=26.0C board=13
+2026-09-15 10:32:34 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9759 dot_dia=93.1um weight=0.0225mg f_press=0.728MPa temp=26.1C board=13
+2026-09-15 10:34:13 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9825 dot_dia=95.0um weight=0.0219mg f_press=0.707MPa temp=26.0C board=13
+2026-09-15 10:35:43 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9868 dot_dia=91.7um weight=0.0216mg f_press=0.734MPa temp=26.1C board=13
+2026-09-15 10:37:04 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9909 dot_dia=92.1um weight=0.0215mg f_press=0.723MPa temp=26.0C board=13
+2026-09-15 10:37:04 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=13 units=900 defects=0
+2026-09-15 10:37:04 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=88% status=PASS
+2026-09-15 10:38:43 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9978 dot_dia=90.5um weight=0.0229mg f_press=0.718MPa temp=26.1C board=14
+2026-09-15 10:40:02 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10048 dot_dia=93.0um weight=0.0230mg f_press=0.726MPa temp=26.1C board=14
+2026-09-15 10:40:02 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 10:41:29 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10088 dot_dia=94.2um weight=0.0228mg f_press=0.730MPa temp=26.2C board=14
+2026-09-15 10:43:08 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10149 dot_dia=95.2um weight=0.0224mg f_press=0.719MPa temp=26.2C board=14
+2026-09-15 10:44:53 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10215 dot_dia=94.8um weight=0.0221mg f_press=0.724MPa temp=26.2C board=14
+2026-09-15 10:46:28 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10264 dot_dia=95.5um weight=0.0225mg f_press=0.711MPa temp=26.3C board=14
+2026-09-15 10:48:03 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10310 dot_dia=95.2um weight=0.0224mg f_press=0.725MPa temp=26.3C board=14
+2026-09-15 10:49:41 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10370 dot_dia=92.5um weight=0.0220mg f_press=0.734MPa temp=26.4C board=14
+2026-09-15 10:51:22 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10420 dot_dia=90.5um weight=0.0233mg f_press=0.729MPa temp=26.3C board=14
+2026-09-15 10:52:40 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10487 dot_dia=93.4um weight=0.0228mg f_press=0.712MPa temp=26.5C board=14
+2026-09-15 10:54:13 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10527 dot_dia=94.7um weight=0.0218mg f_press=0.712MPa temp=26.4C board=14
+2026-09-15 10:54:13 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 10:55:29 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10595 dot_dia=90.7um weight=0.0228mg f_press=0.713MPa temp=26.5C board=14
+2026-09-15 10:56:58 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10638 dot_dia=91.1um weight=0.0232mg f_press=0.723MPa temp=26.5C board=14
+2026-09-15 10:58:20 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10701 dot_dia=92.7um weight=0.0221mg f_press=0.707MPa temp=26.6C board=14
+2026-09-15 10:59:56 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10765 dot_dia=95.6um weight=0.0220mg f_press=0.722MPa temp=26.6C board=14
+2026-09-15 11:01:13 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10822 dot_dia=93.3um weight=0.0220mg f_press=0.709MPa temp=26.6C board=14
+2026-09-15 11:01:13 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 11:01:13 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=14 units=900 defects=0
+2026-09-15 11:01:13 | NSW-SD1X-03  | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=77% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 11:02:29 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10867 dot_dia=94.6um weight=0.0232mg f_press=0.709MPa temp=26.5C board=15
+2026-09-15 11:03:44 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10916 dot_dia=95.1um weight=0.0235mg f_press=0.706MPa temp=26.6C board=15
+2026-09-15 11:05:23 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10970 dot_dia=92.0um weight=0.0221mg f_press=0.719MPa temp=26.6C board=15
+2026-09-15 11:06:57 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11012 dot_dia=95.3um weight=0.0230mg f_press=0.726MPa temp=26.7C board=15
+2026-09-15 11:06:57 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 11:08:23 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11055 dot_dia=92.4um weight=0.0229mg f_press=0.718MPa temp=26.8C board=15
+2026-09-15 11:08:23 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 11:09:55 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11096 dot_dia=94.9um weight=0.0228mg f_press=0.720MPa temp=26.6C board=15
+2026-09-15 11:11:31 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11165 dot_dia=94.3um weight=0.0237mg f_press=0.730MPa temp=26.6C board=15
+2026-09-15 11:12:55 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11219 dot_dia=95.1um weight=0.0225mg f_press=0.712MPa temp=26.9C board=15
+2026-09-15 11:14:39 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11261 dot_dia=91.8um weight=0.0223mg f_press=0.721MPa temp=26.8C board=15
+2026-09-15 11:16:12 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11308 dot_dia=96.0um weight=0.0228mg f_press=0.722MPa temp=26.9C board=15
+2026-09-15 11:17:30 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11350 dot_dia=93.0um weight=0.0229mg f_press=0.712MPa temp=27.0C board=15
+2026-09-15 11:19:13 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11401 dot_dia=95.4um weight=0.0225mg f_press=0.718MPa temp=26.8C board=15
+2026-09-15 11:20:48 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11459 dot_dia=93.9um weight=0.0227mg f_press=0.716MPa temp=26.8C board=15
+2026-09-15 11:22:30 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11508 dot_dia=96.4um weight=0.0230mg f_press=0.719MPa temp=26.9C board=15
+2026-09-15 11:22:30 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 11:24:05 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11555 dot_dia=95.5um weight=0.0239mg f_press=0.733MPa temp=27.0C board=15
+2026-09-15 11:24:05 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 11:25:35 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11595 dot_dia=95.0um weight=0.0227mg f_press=0.730MPa temp=27.0C board=15
+2026-09-15 11:26:57 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11665 dot_dia=93.6um weight=0.0231mg f_press=0.713MPa temp=27.2C board=15
+2026-09-15 11:28:12 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11721 dot_dia=98.1um weight=0.0224mg f_press=0.718MPa temp=27.1C board=15
+2026-09-15 11:28:12 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=15 units=900 defects=0
+2026-09-15 11:28:12 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=86% status=PASS
+2026-09-15 11:29:52 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11778 dot_dia=95.1um weight=0.0239mg f_press=0.729MPa temp=27.0C board=16
+2026-09-15 11:31:20 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11820 dot_dia=94.3um weight=0.0226mg f_press=0.733MPa temp=27.2C board=16
+2026-09-15 11:32:40 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11874 dot_dia=96.9um weight=0.0240mg f_press=0.726MPa temp=27.0C board=16
+2026-09-15 11:34:17 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11934 dot_dia=94.8um weight=0.0239mg f_press=0.717MPa temp=27.2C board=16
+2026-09-15 11:34:17 | NSW-SD1X-03  | EXCEP   | WARN  | Conveyor1_Timeout      | TimeOutLoadIn=5000ms exceeded
+2026-09-15 11:35:42 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11993 dot_dia=97.1um weight=0.0230mg f_press=0.721MPa temp=27.3C board=16
+2026-09-15 11:37:22 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12049 dot_dia=94.8um weight=0.0237mg f_press=0.725MPa temp=27.4C board=16
+2026-09-15 11:37:22 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 11:37:22 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 11:39:05 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12100 dot_dia=95.7um weight=0.0232mg f_press=0.707MPa temp=27.1C board=16
+2026-09-15 11:40:22 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12157 dot_dia=93.8um weight=0.0240mg f_press=0.722MPa temp=27.3C board=16
+2026-09-15 11:42:07 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12221 dot_dia=97.2um weight=0.0242mg f_press=0.727MPa temp=27.4C board=16
+2026-09-15 11:43:30 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12275 dot_dia=93.5um weight=0.0234mg f_press=0.720MPa temp=27.3C board=16
+2026-09-15 11:44:48 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12329 dot_dia=98.1um weight=0.0236mg f_press=0.719MPa temp=27.5C board=16
+2026-09-15 11:46:33 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12397 dot_dia=98.5um weight=0.0245mg f_press=0.726MPa temp=27.3C board=16
+2026-09-15 11:48:16 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12440 dot_dia=93.9um weight=0.0245mg f_press=0.711MPa temp=27.4C board=16
+2026-09-15 11:49:58 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12501 dot_dia=93.7um weight=0.0245mg f_press=0.711MPa temp=27.5C board=16
+2026-09-15 11:49:58 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 11:51:24 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12541 dot_dia=93.8um weight=0.0242mg f_press=0.718MPa temp=27.4C board=16
+2026-09-15 11:51:24 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 11:53:09 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12606 dot_dia=97.1um weight=0.0234mg f_press=0.721MPa temp=27.6C board=16
+2026-09-15 11:53:09 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=16 units=900 defects=0
+2026-09-15 11:53:09 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=88% status=PASS
+2026-09-15 11:54:40 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12671 dot_dia=95.6um weight=0.0237mg f_press=0.730MPa temp=27.5C board=17
+2026-09-15 11:56:02 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12722 dot_dia=98.4um weight=0.0247mg f_press=0.720MPa temp=27.5C board=17
+2026-09-15 11:57:36 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12788 dot_dia=95.6um weight=0.0242mg f_press=0.732MPa temp=27.8C board=17
+2026-09-15 11:59:16 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12832 dot_dia=94.3um weight=0.0234mg f_press=0.710MPa temp=27.6C board=17
+2026-09-15 12:00:37 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12883 dot_dia=96.0um weight=0.0230mg f_press=0.722MPa temp=27.6C board=17
+2026-09-15 12:02:09 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12927 dot_dia=96.6um weight=0.0247mg f_press=0.714MPa temp=27.7C board=17
+2026-09-15 12:03:28 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=12989 dot_dia=100.0um weight=0.0244mg f_press=0.706MPa temp=27.7C board=17
+2026-09-15 12:05:13 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13052 dot_dia=98.3um weight=0.0249mg f_press=0.727MPa temp=27.9C board=17
+2026-09-15 12:05:13 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 12:06:50 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13095 dot_dia=94.7um weight=0.0240mg f_press=0.709MPa temp=27.9C board=17
+2026-09-15 12:08:31 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13141 dot_dia=96.5um weight=0.0238mg f_press=0.712MPa temp=27.9C board=17
+2026-09-15 12:10:15 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13202 dot_dia=95.2um weight=0.0235mg f_press=0.728MPa temp=28.0C board=17
+2026-09-15 12:10:15 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 12:11:46 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13243 dot_dia=98.3um weight=0.0241mg f_press=0.717MPa temp=27.9C board=17
+2026-09-15 12:11:46 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 12:13:05 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13294 dot_dia=97.1um weight=0.0240mg f_press=0.726MPa temp=27.8C board=17
+2026-09-15 12:14:47 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13347 dot_dia=100.1um weight=0.0236mg f_press=0.722MPa temp=28.0C board=17
+2026-09-15 12:16:27 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13413 dot_dia=99.3um weight=0.0250mg f_press=0.727MPa temp=28.0C board=17
+2026-09-15 12:17:48 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13482 dot_dia=98.2um weight=0.0252mg f_press=0.714MPa temp=28.0C board=17
+2026-09-15 12:19:05 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13536 dot_dia=96.7um weight=0.0245mg f_press=0.706MPa temp=28.0C board=17
+2026-09-15 12:19:05 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 12:19:05 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=17 units=900 defects=0
+2026-09-15 12:19:05 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=94% status=PASS
+2026-09-15 12:20:26 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13602 dot_dia=98.5um weight=0.0241mg f_press=0.711MPa temp=27.9C board=18
+2026-09-15 12:21:56 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13650 dot_dia=95.5um weight=0.0243mg f_press=0.722MPa temp=28.0C board=18
+2026-09-15 12:23:31 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13705 dot_dia=100.6um weight=0.0247mg f_press=0.719MPa temp=28.1C board=18
+2026-09-15 12:24:46 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13768 dot_dia=101.3um weight=0.0240mg f_press=0.709MPa temp=28.0C board=18
+2026-09-15 12:26:14 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13811 dot_dia=98.3um weight=0.0247mg f_press=0.731MPa temp=28.2C board=18
+2026-09-15 12:27:29 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13879 dot_dia=95.9um weight=0.0238mg f_press=0.730MPa temp=28.2C board=18
+2026-09-15 12:28:45 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13928 dot_dia=101.1um weight=0.0243mg f_press=0.713MPa temp=28.2C board=18
+2026-09-15 12:30:02 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=13992 dot_dia=96.8um weight=0.0250mg f_press=0.720MPa temp=28.1C board=18
+2026-09-15 12:31:27 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14054 dot_dia=97.6um weight=0.0249mg f_press=0.729MPa temp=28.3C board=18
+2026-09-15 12:31:27 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 12:32:53 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14109 dot_dia=99.0um weight=0.0236mg f_press=0.729MPa temp=28.3C board=18
+2026-09-15 12:34:13 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14177 dot_dia=97.3um weight=0.0239mg f_press=0.709MPa temp=28.3C board=18
+2026-09-15 12:35:58 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14220 dot_dia=99.3um weight=0.0247mg f_press=0.721MPa temp=28.4C board=18
+2026-09-15 12:37:16 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14271 dot_dia=99.0um weight=0.0255mg f_press=0.729MPa temp=28.3C board=18
+2026-09-15 12:38:50 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14334 dot_dia=97.2um weight=0.0256mg f_press=0.721MPa temp=28.4C board=18
+2026-09-15 12:40:32 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14376 dot_dia=98.1um weight=0.0251mg f_press=0.726MPa temp=28.4C board=18
+2026-09-15 12:41:50 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14419 dot_dia=100.9um weight=0.0253mg f_press=0.708MPa temp=28.4C board=18
+2026-09-15 12:41:50 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 12:41:50 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=18 units=900 defects=0
+2026-09-15 12:41:50 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=91% status=PASS
+2026-09-15 12:43:06 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14459 dot_dia=96.7um weight=0.0256mg f_press=0.719MPa temp=28.5C board=19
+2026-09-15 12:43:06 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 12:43:06 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=19 units=900 defects=0
+2026-09-15 12:43:06 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=95% status=PASS
+2026-09-15 12:44:40 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14501 dot_dia=97.6um weight=0.0256mg f_press=0.712MPa temp=28.5C board=20
+2026-09-15 12:44:40 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 12:46:03 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14564 dot_dia=97.6um weight=0.0245mg f_press=0.733MPa temp=28.6C board=20
+2026-09-15 12:47:20 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14610 dot_dia=96.7um weight=0.0250mg f_press=0.708MPa temp=28.5C board=20
+2026-09-15 12:48:59 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14666 dot_dia=97.3um weight=0.0258mg f_press=0.721MPa temp=28.5C board=20
+2026-09-15 12:50:36 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14717 dot_dia=102.6um weight=0.0248mg f_press=0.723MPa temp=28.6C board=20
+2026-09-15 12:52:07 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14760 dot_dia=102.8um weight=0.0242mg f_press=0.712MPa temp=28.6C board=20
+2026-09-15 12:53:33 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14803 dot_dia=97.2um weight=0.0251mg f_press=0.726MPa temp=28.7C board=20
+2026-09-15 12:55:11 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14852 dot_dia=99.8um weight=0.0260mg f_press=0.715MPa temp=28.8C board=20
+2026-09-15 12:56:53 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14897 dot_dia=100.0um weight=0.0257mg f_press=0.708MPa temp=28.8C board=20
+2026-09-15 12:58:29 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14941 dot_dia=101.2um weight=0.0250mg f_press=0.709MPa temp=28.7C board=20
+2026-09-15 12:59:47 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=14987 dot_dia=98.4um weight=0.0259mg f_press=0.727MPa temp=28.8C board=20
+2026-09-15 13:01:14 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15049 dot_dia=101.8um weight=0.0258mg f_press=0.709MPa temp=28.8C board=20
+2026-09-15 13:01:14 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 13:02:53 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15108 dot_dia=99.9um weight=0.0255mg f_press=0.728MPa temp=28.9C board=20
+2026-09-15 13:04:24 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15163 dot_dia=98.2um weight=0.0257mg f_press=0.714MPa temp=28.9C board=20
+2026-09-15 13:05:39 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15208 dot_dia=98.1um weight=0.0243mg f_press=0.708MPa temp=29.0C board=20
+2026-09-15 13:06:58 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15264 dot_dia=102.3um weight=0.0255mg f_press=0.714MPa temp=29.0C board=20
+2026-09-15 13:08:19 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15329 dot_dia=100.9um weight=0.0253mg f_press=0.714MPa temp=29.0C board=20
+2026-09-15 13:08:19 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=20 units=900 defects=0
+2026-09-15 13:08:19 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=87% status=PASS
+2026-09-15 13:08:24 | NSW-SD1X-03  | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=15329 vision_score=LOW
+2026-09-15 13:09:58 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15379 dot_dia=103.4um weight=0.0252mg f_press=0.707MPa temp=29.0C board=21
+2026-09-15 13:11:14 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15441 dot_dia=103.2um weight=0.0254mg f_press=0.707MPa temp=29.0C board=21
+2026-09-15 13:12:38 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15502 dot_dia=98.7um weight=0.0253mg f_press=0.726MPa temp=29.1C board=21
+2026-09-15 13:12:38 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 13:14:08 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15557 dot_dia=101.2um weight=0.0261mg f_press=0.719MPa temp=29.1C board=21
+2026-09-15 13:14:08 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 13:15:44 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15598 dot_dia=100.1um weight=0.0264mg f_press=0.716MPa temp=29.0C board=21
+2026-09-15 13:17:24 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15641 dot_dia=103.7um weight=0.0245mg f_press=0.727MPa temp=29.1C board=21
+2026-09-15 13:17:24 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 13:18:52 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15699 dot_dia=99.9um weight=0.0258mg f_press=0.716MPa temp=29.2C board=21
+2026-09-15 13:20:34 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15753 dot_dia=98.6um weight=0.0252mg f_press=0.714MPa temp=29.2C board=21
+2026-09-15 13:22:05 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15803 dot_dia=102.8um weight=0.0251mg f_press=0.732MPa temp=29.3C board=21
+2026-09-15 13:23:38 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15858 dot_dia=102.8um weight=0.0256mg f_press=0.708MPa temp=29.2C board=21
+2026-09-15 13:25:03 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15918 dot_dia=104.6um weight=0.0252mg f_press=0.710MPa temp=29.2C board=21
+2026-09-15 13:26:44 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=15976 dot_dia=100.4um weight=0.0251mg f_press=0.730MPa temp=29.3C board=21
+2026-09-15 13:28:22 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16024 dot_dia=102.4um weight=0.0261mg f_press=0.733MPa temp=29.4C board=21
+2026-09-15 13:28:22 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 13:29:52 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16080 dot_dia=99.4um weight=0.0254mg f_press=0.718MPa temp=29.5C board=21
+2026-09-15 13:31:24 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16141 dot_dia=100.6um weight=0.0256mg f_press=0.715MPa temp=29.5C board=21
+2026-09-15 13:32:39 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16202 dot_dia=100.3um weight=0.0258mg f_press=0.724MPa temp=29.5C board=21
+2026-09-15 13:32:39 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=21 units=900 defects=0
+2026-09-15 13:32:39 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=93% status=PASS
+2026-09-15 13:34:02 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16255 dot_dia=103.0um weight=0.0259mg f_press=0.733MPa temp=29.6C board=22
+2026-09-15 13:34:02 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=22 units=900 defects=0
+2026-09-15 13:34:02 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=93% status=PASS
+2026-09-15 13:35:33 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16319 dot_dia=100.7um weight=0.0258mg f_press=0.711MPa temp=29.6C board=23
+2026-09-15 13:36:58 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16367 dot_dia=103.2um weight=0.0267mg f_press=0.730MPa temp=29.7C board=23
+2026-09-15 13:38:21 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16407 dot_dia=100.9um weight=0.0253mg f_press=0.725MPa temp=29.5C board=23
+2026-09-15 13:39:50 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16453 dot_dia=102.1um weight=0.0269mg f_press=0.720MPa temp=29.7C board=23
+2026-09-15 13:41:13 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16494 dot_dia=103.0um weight=0.0255mg f_press=0.728MPa temp=29.7C board=23
+2026-09-15 13:42:28 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16536 dot_dia=101.6um weight=0.0268mg f_press=0.707MPa temp=29.6C board=23
+2026-09-15 13:42:28 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 13:43:54 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16602 dot_dia=102.2um weight=0.0268mg f_press=0.725MPa temp=29.8C board=23
+2026-09-15 13:45:32 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16666 dot_dia=103.9um weight=0.0252mg f_press=0.720MPa temp=29.7C board=23
+2026-09-15 13:47:15 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16732 dot_dia=104.7um weight=0.0263mg f_press=0.708MPa temp=29.7C board=23
+2026-09-15 13:48:53 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16778 dot_dia=101.3um weight=0.0270mg f_press=0.727MPa temp=29.7C board=23
+2026-09-15 13:50:16 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16821 dot_dia=103.4um weight=0.0252mg f_press=0.730MPa temp=29.9C board=23
+2026-09-15 13:50:16 | NSW-SD1X-03  | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 13:51:52 | NSW-SD1X-03  | NOTIFY  | WARN  | TEMP_OUT_OF_RANGE      | material stabilizer above setpoint tolerance | cycle=16876 dot_dia=105.0um weight=0.0257mg f_press=0.713MPa temp=29.7C board=23
+2026-09-15 13:53:07 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=16941 dot_dia=100.4um weight=0.0270mg f_press=0.724MPa temp=29.9C board=23
+2026-09-15 13:54:47 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=17003 dot_dia=102.7um weight=0.0257mg f_press=0.725MPa temp=29.9C board=23
+2026-09-15 13:54:47 | NSW-SD1X-03  | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 13:56:05 | NSW-SD1X-03  | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=17073 dot_dia=103.1um weight=0.0257mg f_press=0.721MPa temp=29.8C board=23
+2026-09-15 13:57:28 | NSW-SD1X-03  | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=65-105um | cycle=17140 dot_dia=105.2um weight=0.0272mg f_press=0.714MPa temp=29.9C board=23
+2026-09-15 13:57:28 | NSW-SD1X-03  | PROCESS | INFO  | BOARD_COMPLETE         | board=23 units=900 defects=0
+2026-09-15 13:57:28 | NSW-SD1X-03  | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=84% status=PASS
+2026-09-15 13:59:11 | NSW-SD1X-03  | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=65-105um | cycle=17182 dot_dia=105.5um weight=0.0266mg f_press=0.729MPa temp=29.9C board=24
+2026-09-15 14:00:41 | NSW-SD1X-03  | PROCESS | INFO  | PROCESS_END            | shift complete, total_cycles=17182, boards=24
+2026-09-15 14:01:11 | NSW-SD1X-03  | SYSTEM  | INFO  | SYSTEM_SHUTDOWN        | operator logged out

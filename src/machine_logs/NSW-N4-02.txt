@@ -1,0 +1,404 @@
+================================================================================
+NSW AUTOMATION - DISPENSING EQUIPMENT EVENT LOG
+================================================================================
+Equipment ID      : NSW-N4-02
+Equipment Model   : N4 Solder Paste Micro-Dispenser
+Software          : nFlow Dispensing Software (Windows 10)
+Fluid Delivery    : Time Pressure System
+Nozzle            : S50-10C  (inner diameter 100 um)
+Material          : Solder Paste T6 SAC305 (WS5112)
+Target Dot Size   : 220 um
+Target Dot Weight : 0.0310 mg
+Log Start         : 2026-09-15 06:00:00
+Log End           : 2026-09-15 12:46:48
+================================================================================
+Columns: TIMESTAMP | EQUIPMENT | CATEGORY | LEVEL | EVENT | DATA
+Category: nFlow log tabs - SYSTEM, PROCESS, EVENT, ALARM, EXCEP, NOTIFY, CTRL
+Levels  : INFO = normal, WARN = out of tolerance, ERROR = process stopped
+================================================================================
+
+2026-09-15 06:00:00 | NSW-N4-02    | SYSTEM  | INFO  | SYSTEM_START_UP        | nFlow software started, recipe=PROD_02.xml
+2026-09-15 06:00:16 | NSW-N4-02    | SYSTEM  | INFO  | MOTION_HOMING          | axis=XYZ status=PASS
+2026-09-15 06:00:43 | NSW-N4-02    | CTRL    | INFO  | PUMP_CONNECT           | pump=Time Pressure System status=CONNECTED
+2026-09-15 06:01:11 | NSW-N4-02    | PARA    | INFO  | REGULATOR_SET          | Reg0=0.65MPa Reg1=0.10MPa
+2026-09-15 06:01:31 | NSW-N4-02    | PARA    | INFO  | TEMPERATURE_SET        | stabilizer_setpoint=24.0C
+2026-09-15 06:02:09 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_XY_CAL          | offset_x=0.012mm offset_y=-0.008mm status=PASS
+2026-09-15 06:02:37 | NSW-N4-02    | EVENT   | INFO  | Z_TOUCH_CAL            | z_touch=12.431mm encoder_res=0.002mm status=PASS
+2026-09-15 06:02:56 | NSW-N4-02    | EVENT   | INFO  | DYNAMIC_JET_CAL        | pitch=1.000mm dot_count=1 status=PASS
+2026-09-15 06:03:29 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 unit_interval=0 status=PASS
+2026-09-15 06:03:57 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:04:23 | NSW-N4-02    | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=94% theta=0.3deg status=PASS
+2026-09-15 06:05:02 | NSW-N4-02    | EVENT   | INFO  | HEIGHT_ALIGN_BOARD     | mode=AVERAGE points=4 offset=0.03mm status=PASS
+2026-09-15 06:05:25 | NSW-N4-02    | PROCESS | INFO  | PROCESS_RUN            | mode=NORMAL run_select=CONTINUOUS
+2026-09-15 06:05:53 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=58 dot_dia=218.6um weight=0.0318mg f_press=0.647MPa temp=23.9C board=1
+2026-09-15 06:05:53 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:05:53 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 06:05:53 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=1 units=900 defects=0
+2026-09-15 06:05:53 | NSW-N4-02    | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=87% status=PASS
+2026-09-15 06:07:32 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=112 dot_dia=219.5um weight=0.0321mg f_press=0.651MPa temp=24.1C board=2
+2026-09-15 06:08:49 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=172 dot_dia=218.8um weight=0.0317mg f_press=0.658MPa temp=24.0C board=2
+2026-09-15 06:10:08 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=227 dot_dia=214.4um weight=0.0317mg f_press=0.656MPa temp=24.1C board=2
+2026-09-15 06:11:52 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=278 dot_dia=220.6um weight=0.0315mg f_press=0.661MPa temp=24.1C board=2
+2026-09-15 06:13:26 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=329 dot_dia=223.6um weight=0.0300mg f_press=0.654MPa temp=24.0C board=2
+2026-09-15 06:14:59 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=399 dot_dia=218.7um weight=0.0314mg f_press=0.663MPa temp=24.1C board=2
+2026-09-15 06:16:17 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=457 dot_dia=220.2um weight=0.0310mg f_press=0.644MPa temp=24.0C board=2
+2026-09-15 06:17:46 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=497 dot_dia=220.0um weight=0.0312mg f_press=0.657MPa temp=24.0C board=2
+2026-09-15 06:19:30 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=546 dot_dia=225.8um weight=0.0300mg f_press=0.662MPa temp=23.9C board=2
+2026-09-15 06:19:30 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:21:01 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=596 dot_dia=219.2um weight=0.0309mg f_press=0.650MPa temp=24.0C board=2
+2026-09-15 06:22:38 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=641 dot_dia=222.0um weight=0.0319mg f_press=0.640MPa temp=24.0C board=2
+2026-09-15 06:24:09 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=688 dot_dia=220.8um weight=0.0302mg f_press=0.642MPa temp=24.1C board=2
+2026-09-15 06:25:29 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=734 dot_dia=213.8um weight=0.0308mg f_press=0.654MPa temp=24.0C board=2
+2026-09-15 06:26:44 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=776 dot_dia=223.3um weight=0.0303mg f_press=0.655MPa temp=24.1C board=2
+2026-09-15 06:28:16 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=843 dot_dia=219.4um weight=0.0306mg f_press=0.642MPa temp=23.9C board=2
+2026-09-15 06:29:41 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=910 dot_dia=221.1um weight=0.0313mg f_press=0.653MPa temp=24.0C board=2
+2026-09-15 06:29:41 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=2 units=900 defects=0
+2026-09-15 06:29:41 | NSW-N4-02    | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=75% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 06:31:18 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=960 dot_dia=221.2um weight=0.0320mg f_press=0.658MPa temp=24.0C board=3
+2026-09-15 06:32:38 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1018 dot_dia=218.5um weight=0.0301mg f_press=0.647MPa temp=24.0C board=3
+2026-09-15 06:32:38 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:34:13 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1063 dot_dia=225.7um weight=0.0320mg f_press=0.651MPa temp=23.9C board=3
+2026-09-15 06:35:38 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1118 dot_dia=224.8um weight=0.0313mg f_press=0.659MPa temp=24.1C board=3
+2026-09-15 06:37:23 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1180 dot_dia=218.8um weight=0.0314mg f_press=0.652MPa temp=24.0C board=3
+2026-09-15 06:38:40 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1227 dot_dia=216.3um weight=0.0317mg f_press=0.652MPa temp=23.9C board=3
+2026-09-15 06:38:40 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 06:40:09 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1285 dot_dia=219.9um weight=0.0317mg f_press=0.652MPa temp=24.0C board=3
+2026-09-15 06:41:50 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1339 dot_dia=223.4um weight=0.0311mg f_press=0.663MPa temp=24.1C board=3
+2026-09-15 06:43:08 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1380 dot_dia=216.7um weight=0.0314mg f_press=0.656MPa temp=24.1C board=3
+2026-09-15 06:44:49 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1426 dot_dia=214.9um weight=0.0319mg f_press=0.639MPa temp=24.1C board=3
+2026-09-15 06:46:15 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1491 dot_dia=219.1um weight=0.0313mg f_press=0.659MPa temp=24.0C board=3
+2026-09-15 06:47:31 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1553 dot_dia=221.3um weight=0.0311mg f_press=0.652MPa temp=23.9C board=3
+2026-09-15 06:47:31 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 06:49:16 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1623 dot_dia=222.4um weight=0.0322mg f_press=0.659MPa temp=23.9C board=3
+2026-09-15 06:50:32 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1670 dot_dia=215.1um weight=0.0319mg f_press=0.663MPa temp=24.1C board=3
+2026-09-15 06:51:54 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1718 dot_dia=219.9um weight=0.0314mg f_press=0.657MPa temp=24.0C board=3
+2026-09-15 06:53:11 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1766 dot_dia=214.6um weight=0.0319mg f_press=0.653MPa temp=24.0C board=3
+2026-09-15 06:54:40 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1829 dot_dia=213.4um weight=0.0306mg f_press=0.662MPa temp=24.1C board=3
+2026-09-15 06:54:40 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=3 units=900 defects=0
+2026-09-15 06:54:40 | NSW-N4-02    | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=84% status=PASS
+2026-09-15 06:56:17 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1882 dot_dia=220.5um weight=0.0299mg f_press=0.646MPa temp=23.9C board=4
+2026-09-15 06:57:42 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1937 dot_dia=221.0um weight=0.0306mg f_press=0.659MPa temp=24.0C board=4
+2026-09-15 06:59:21 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=1980 dot_dia=223.7um weight=0.0300mg f_press=0.638MPa temp=24.0C board=4
+2026-09-15 07:00:50 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2024 dot_dia=216.1um weight=0.0321mg f_press=0.637MPa temp=24.0C board=4
+2026-09-15 07:00:50 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 07:02:32 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2075 dot_dia=222.0um weight=0.0304mg f_press=0.661MPa temp=23.9C board=4
+2026-09-15 07:03:48 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2135 dot_dia=222.6um weight=0.0305mg f_press=0.647MPa temp=23.9C board=4
+2026-09-15 07:05:09 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2175 dot_dia=216.4um weight=0.0301mg f_press=0.649MPa temp=24.0C board=4
+2026-09-15 07:06:27 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2227 dot_dia=215.1um weight=0.0308mg f_press=0.663MPa temp=23.9C board=4
+2026-09-15 07:07:45 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2291 dot_dia=215.2um weight=0.0319mg f_press=0.645MPa temp=24.1C board=4
+2026-09-15 07:09:21 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2345 dot_dia=213.5um weight=0.0311mg f_press=0.641MPa temp=24.0C board=4
+2026-09-15 07:10:59 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2387 dot_dia=222.5um weight=0.0308mg f_press=0.641MPa temp=24.1C board=4
+2026-09-15 07:12:17 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2431 dot_dia=226.1um weight=0.0307mg f_press=0.652MPa temp=24.0C board=4
+2026-09-15 07:12:17 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 07:13:39 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2493 dot_dia=221.4um weight=0.0312mg f_press=0.651MPa temp=24.1C board=4
+2026-09-15 07:15:22 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2542 dot_dia=220.1um weight=0.0310mg f_press=0.645MPa temp=24.1C board=4
+2026-09-15 07:15:22 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 07:17:02 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2601 dot_dia=214.9um weight=0.0310mg f_press=0.662MPa temp=24.0C board=4
+2026-09-15 07:18:17 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2659 dot_dia=215.1um weight=0.0321mg f_press=0.663MPa temp=24.1C board=4
+2026-09-15 07:19:37 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2701 dot_dia=223.6um weight=0.0321mg f_press=0.657MPa temp=23.9C board=4
+2026-09-15 07:19:37 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=4 units=900 defects=0
+2026-09-15 07:19:37 | NSW-N4-02    | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=76% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 07:20:53 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2765 dot_dia=217.2um weight=0.0307mg f_press=0.662MPa temp=24.1C board=5
+2026-09-15 07:22:10 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2807 dot_dia=215.4um weight=0.0311mg f_press=0.654MPa temp=23.9C board=5
+2026-09-15 07:23:50 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2867 dot_dia=221.1um weight=0.0306mg f_press=0.641MPa temp=24.1C board=5
+2026-09-15 07:25:27 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2936 dot_dia=216.6um weight=0.0321mg f_press=0.648MPa temp=23.9C board=5
+2026-09-15 07:27:01 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=2976 dot_dia=222.1um weight=0.0314mg f_press=0.638MPa temp=23.9C board=5
+2026-09-15 07:28:21 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3024 dot_dia=220.2um weight=0.0306mg f_press=0.650MPa temp=24.1C board=5
+2026-09-15 07:28:21 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 07:30:00 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3074 dot_dia=215.0um weight=0.0316mg f_press=0.660MPa temp=24.1C board=5
+2026-09-15 07:31:17 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3130 dot_dia=221.7um weight=0.0322mg f_press=0.644MPa temp=24.0C board=5
+2026-09-15 07:32:50 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3191 dot_dia=223.6um weight=0.0302mg f_press=0.641MPa temp=24.1C board=5
+2026-09-15 07:34:21 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3242 dot_dia=213.6um weight=0.0319mg f_press=0.637MPa temp=23.9C board=5
+2026-09-15 07:36:05 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3302 dot_dia=224.0um weight=0.0298mg f_press=0.662MPa temp=24.1C board=5
+2026-09-15 07:37:33 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3345 dot_dia=224.3um weight=0.0306mg f_press=0.661MPa temp=24.0C board=5
+2026-09-15 07:38:53 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3413 dot_dia=214.0um weight=0.0310mg f_press=0.643MPa temp=24.0C board=5
+2026-09-15 07:40:35 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3462 dot_dia=219.4um weight=0.0300mg f_press=0.645MPa temp=24.0C board=5
+2026-09-15 07:42:09 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3526 dot_dia=226.2um weight=0.0307mg f_press=0.643MPa temp=24.1C board=5
+2026-09-15 07:42:09 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 07:43:48 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3583 dot_dia=225.7um weight=0.0301mg f_press=0.658MPa temp=23.9C board=5
+2026-09-15 07:45:31 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3646 dot_dia=223.4um weight=0.0306mg f_press=0.637MPa temp=24.0C board=5
+2026-09-15 07:45:31 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 07:45:31 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=5 units=900 defects=0
+2026-09-15 07:45:31 | NSW-N4-02    | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=73% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 07:46:53 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3694 dot_dia=226.2um weight=0.0321mg f_press=0.648MPa temp=23.9C board=6
+2026-09-15 07:48:36 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3757 dot_dia=225.2um weight=0.0308mg f_press=0.659MPa temp=24.0C board=6
+2026-09-15 07:49:55 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3818 dot_dia=221.2um weight=0.0307mg f_press=0.654MPa temp=23.9C board=6
+2026-09-15 07:51:18 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3868 dot_dia=218.6um weight=0.0321mg f_press=0.659MPa temp=24.1C board=6
+2026-09-15 07:52:35 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3911 dot_dia=223.6um weight=0.0301mg f_press=0.662MPa temp=23.9C board=6
+2026-09-15 07:54:03 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=3965 dot_dia=223.6um weight=0.0306mg f_press=0.640MPa temp=24.0C board=6
+2026-09-15 07:55:23 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4011 dot_dia=222.7um weight=0.0305mg f_press=0.658MPa temp=24.0C board=6
+2026-09-15 07:55:23 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 07:56:40 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4060 dot_dia=218.6um weight=0.0322mg f_press=0.655MPa temp=23.9C board=6
+2026-09-15 07:57:55 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4103 dot_dia=220.7um weight=0.0319mg f_press=0.662MPa temp=24.0C board=6
+2026-09-15 07:59:14 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4149 dot_dia=223.7um weight=0.0299mg f_press=0.640MPa temp=23.9C board=6
+2026-09-15 08:00:49 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4191 dot_dia=221.1um weight=0.0300mg f_press=0.661MPa temp=24.1C board=6
+2026-09-15 08:02:32 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4256 dot_dia=214.6um weight=0.0318mg f_press=0.654MPa temp=24.1C board=6
+2026-09-15 08:04:01 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4311 dot_dia=219.1um weight=0.0321mg f_press=0.638MPa temp=24.1C board=6
+2026-09-15 08:05:21 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4355 dot_dia=217.0um weight=0.0320mg f_press=0.646MPa temp=24.0C board=6
+2026-09-15 08:06:43 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4397 dot_dia=225.1um weight=0.0310mg f_press=0.654MPa temp=24.0C board=6
+2026-09-15 08:08:04 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4454 dot_dia=216.7um weight=0.0317mg f_press=0.654MPa temp=24.1C board=6
+2026-09-15 08:09:44 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4512 dot_dia=223.7um weight=0.0309mg f_press=0.656MPa temp=24.0C board=6
+2026-09-15 08:09:44 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 08:09:44 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=6 units=900 defects=0
+2026-09-15 08:09:44 | NSW-N4-02    | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=82% status=PASS
+2026-09-15 08:10:59 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4553 dot_dia=225.2um weight=0.0303mg f_press=0.645MPa temp=24.1C board=7
+2026-09-15 08:10:59 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 08:10:59 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=7 units=900 defects=0
+2026-09-15 08:10:59 | NSW-N4-02    | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=85% status=PASS
+2026-09-15 08:12:38 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4600 dot_dia=215.5um weight=0.0303mg f_press=0.652MPa temp=23.9C board=8
+2026-09-15 08:14:22 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4665 dot_dia=225.9um weight=0.0317mg f_press=0.656MPa temp=24.0C board=8
+2026-09-15 08:16:04 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4716 dot_dia=217.6um weight=0.0303mg f_press=0.642MPa temp=24.1C board=8
+2026-09-15 08:17:41 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4782 dot_dia=215.3um weight=0.0312mg f_press=0.646MPa temp=24.1C board=8
+2026-09-15 08:19:11 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4841 dot_dia=213.9um weight=0.0302mg f_press=0.651MPa temp=23.9C board=8
+2026-09-15 08:19:11 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 08:20:26 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4886 dot_dia=224.0um weight=0.0313mg f_press=0.646MPa temp=24.0C board=8
+2026-09-15 08:21:51 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4929 dot_dia=222.7um weight=0.0301mg f_press=0.639MPa temp=23.9C board=8
+2026-09-15 08:23:36 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=4979 dot_dia=222.1um weight=0.0315mg f_press=0.639MPa temp=24.0C board=8
+2026-09-15 08:24:56 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5029 dot_dia=221.8um weight=0.0308mg f_press=0.656MPa temp=24.0C board=8
+2026-09-15 08:24:56 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 08:26:33 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5095 dot_dia=218.1um weight=0.0313mg f_press=0.660MPa temp=24.0C board=8
+2026-09-15 08:28:10 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5153 dot_dia=213.4um weight=0.0302mg f_press=0.645MPa temp=24.0C board=8
+2026-09-15 08:29:55 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5212 dot_dia=217.6um weight=0.0302mg f_press=0.652MPa temp=24.1C board=8
+2026-09-15 08:31:39 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5262 dot_dia=214.4um weight=0.0306mg f_press=0.650MPa temp=24.0C board=8
+2026-09-15 08:32:56 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5302 dot_dia=223.0um weight=0.0314mg f_press=0.658MPa temp=24.0C board=8
+2026-09-15 08:34:13 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5356 dot_dia=222.9um weight=0.0317mg f_press=0.646MPa temp=23.9C board=8
+2026-09-15 08:35:56 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5422 dot_dia=218.0um weight=0.0319mg f_press=0.648MPa temp=24.0C board=8
+2026-09-15 08:35:56 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=8 units=900 defects=0
+2026-09-15 08:35:56 | NSW-N4-02    | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=97% status=PASS
+2026-09-15 08:37:35 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5471 dot_dia=214.4um weight=0.0302mg f_press=0.655MPa temp=24.1C board=9
+2026-09-15 08:38:53 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5528 dot_dia=218.4um weight=0.0302mg f_press=0.639MPa temp=24.1C board=9
+2026-09-15 08:38:53 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 08:40:18 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5598 dot_dia=219.8um weight=0.0313mg f_press=0.652MPa temp=23.9C board=9
+2026-09-15 08:41:46 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5660 dot_dia=216.1um weight=0.0300mg f_press=0.641MPa temp=23.9C board=9
+2026-09-15 08:43:18 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5718 dot_dia=216.5um weight=0.0305mg f_press=0.644MPa temp=23.9C board=9
+2026-09-15 08:44:34 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5777 dot_dia=217.3um weight=0.0308mg f_press=0.646MPa temp=24.0C board=9
+2026-09-15 08:45:55 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5826 dot_dia=214.5um weight=0.0305mg f_press=0.641MPa temp=24.1C board=9
+2026-09-15 08:47:38 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5894 dot_dia=220.6um weight=0.0300mg f_press=0.654MPa temp=23.9C board=9
+2026-09-15 08:48:54 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5935 dot_dia=216.4um weight=0.0309mg f_press=0.644MPa temp=23.9C board=9
+2026-09-15 08:50:12 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=5993 dot_dia=220.5um weight=0.0306mg f_press=0.639MPa temp=24.1C board=9
+2026-09-15 08:51:39 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6048 dot_dia=220.5um weight=0.0308mg f_press=0.658MPa temp=24.1C board=9
+2026-09-15 08:51:39 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 08:51:39 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 08:53:03 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6116 dot_dia=222.8um weight=0.0320mg f_press=0.639MPa temp=24.0C board=9
+2026-09-15 08:54:37 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6161 dot_dia=219.3um weight=0.0321mg f_press=0.641MPa temp=24.1C board=9
+2026-09-15 08:55:56 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6227 dot_dia=222.4um weight=0.0300mg f_press=0.638MPa temp=23.9C board=9
+2026-09-15 08:57:19 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6284 dot_dia=224.1um weight=0.0316mg f_press=0.645MPa temp=23.9C board=9
+2026-09-15 08:58:42 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6342 dot_dia=213.6um weight=0.0320mg f_press=0.651MPa temp=24.0C board=9
+2026-09-15 08:58:42 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=9 units=900 defects=0
+2026-09-15 08:58:42 | NSW-N4-02    | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=83% status=PASS
+2026-09-15 09:00:01 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6411 dot_dia=223.4um weight=0.0312mg f_press=0.641MPa temp=24.1C board=10
+2026-09-15 09:01:41 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6463 dot_dia=217.9um weight=0.0311mg f_press=0.644MPa temp=24.0C board=10
+2026-09-15 09:03:11 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6525 dot_dia=215.3um weight=0.0304mg f_press=0.638MPa temp=24.0C board=10
+2026-09-15 09:03:11 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:04:54 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6593 dot_dia=223.2um weight=0.0303mg f_press=0.646MPa temp=24.1C board=10
+2026-09-15 09:06:34 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6636 dot_dia=219.9um weight=0.0305mg f_press=0.645MPa temp=24.0C board=10
+2026-09-15 09:07:58 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6689 dot_dia=224.3um weight=0.0309mg f_press=0.662MPa temp=23.9C board=10
+2026-09-15 09:09:27 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6756 dot_dia=223.2um weight=0.0318mg f_press=0.642MPa temp=24.1C board=10
+2026-09-15 09:11:07 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6823 dot_dia=220.1um weight=0.0305mg f_press=0.641MPa temp=23.9C board=10
+2026-09-15 09:12:27 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6877 dot_dia=224.4um weight=0.0318mg f_press=0.642MPa temp=23.9C board=10
+2026-09-15 09:13:48 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6920 dot_dia=220.1um weight=0.0318mg f_press=0.644MPa temp=24.0C board=10
+2026-09-15 09:15:18 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=6971 dot_dia=224.9um weight=0.0302mg f_press=0.652MPa temp=24.0C board=10
+2026-09-15 09:16:41 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7016 dot_dia=217.2um weight=0.0315mg f_press=0.656MPa temp=24.0C board=10
+2026-09-15 09:16:41 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:18:02 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7069 dot_dia=222.3um weight=0.0314mg f_press=0.659MPa temp=23.9C board=10
+2026-09-15 09:19:47 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7128 dot_dia=225.4um weight=0.0298mg f_press=0.657MPa temp=24.0C board=10
+2026-09-15 09:21:21 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7181 dot_dia=226.2um weight=0.0305mg f_press=0.658MPa temp=24.0C board=10
+2026-09-15 09:22:50 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7233 dot_dia=222.3um weight=0.0309mg f_press=0.644MPa temp=24.1C board=10
+2026-09-15 09:22:50 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 09:22:50 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=10 units=900 defects=0
+2026-09-15 09:22:50 | NSW-N4-02    | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=70% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 09:24:26 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7282 dot_dia=220.8um weight=0.0318mg f_press=0.662MPa temp=24.0C board=11
+2026-09-15 09:25:43 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7342 dot_dia=217.7um weight=0.0304mg f_press=0.646MPa temp=23.9C board=11
+2026-09-15 09:27:07 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7409 dot_dia=216.6um weight=0.0310mg f_press=0.642MPa temp=23.9C board=11
+2026-09-15 09:28:43 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7458 dot_dia=213.7um weight=0.0301mg f_press=0.645MPa temp=24.0C board=11
+2026-09-15 09:30:10 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7508 dot_dia=226.5um weight=0.0312mg f_press=0.656MPa temp=24.1C board=11
+2026-09-15 09:30:10 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:31:42 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7557 dot_dia=225.8um weight=0.0309mg f_press=0.654MPa temp=24.0C board=11
+2026-09-15 09:31:42 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:33:25 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7620 dot_dia=219.6um weight=0.0305mg f_press=0.652MPa temp=24.1C board=11
+2026-09-15 09:34:45 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7667 dot_dia=222.0um weight=0.0320mg f_press=0.662MPa temp=23.9C board=11
+2026-09-15 09:36:25 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7710 dot_dia=221.0um weight=0.0307mg f_press=0.661MPa temp=24.0C board=11
+2026-09-15 09:37:58 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7753 dot_dia=219.1um weight=0.0312mg f_press=0.656MPa temp=23.9C board=11
+2026-09-15 09:39:22 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7803 dot_dia=214.6um weight=0.0317mg f_press=0.654MPa temp=24.1C board=11
+2026-09-15 09:41:06 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7845 dot_dia=223.5um weight=0.0298mg f_press=0.672MPa temp=23.9C board=11
+2026-09-15 09:42:26 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7909 dot_dia=217.8um weight=0.0295mg f_press=0.657MPa temp=23.9C board=11
+2026-09-15 09:43:56 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=7962 dot_dia=213.2um weight=0.0312mg f_press=0.672MPa temp=24.0C board=11
+2026-09-15 09:45:23 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8030 dot_dia=220.7um weight=0.0305mg f_press=0.654MPa temp=24.1C board=11
+2026-09-15 09:45:23 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:46:44 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8098 dot_dia=220.4um weight=0.0291mg f_press=0.657MPa temp=23.9C board=11
+2026-09-15 09:48:11 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8168 dot_dia=211.3um weight=0.0297mg f_press=0.673MPa temp=23.9C board=11
+2026-09-15 09:49:45 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8236 dot_dia=219.0um weight=0.0300mg f_press=0.676MPa temp=23.9C board=11
+2026-09-15 09:51:05 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8299 dot_dia=215.0um weight=0.0310mg f_press=0.690MPa temp=23.9C board=11
+2026-09-15 09:52:20 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8340 dot_dia=214.2um weight=0.0292mg f_press=0.683MPa temp=24.0C board=11
+2026-09-15 09:53:59 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8400 dot_dia=221.9um weight=0.0288mg f_press=0.684MPa temp=24.0C board=11
+2026-09-15 09:53:59 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 09:55:17 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8444 dot_dia=215.8um weight=0.0295mg f_press=0.683MPa temp=24.0C board=11
+2026-09-15 09:55:17 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 09:56:32 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8503 dot_dia=217.0um weight=0.0301mg f_press=0.682MPa temp=23.9C board=11
+2026-09-15 09:56:32 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:58:15 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8546 dot_dia=209.5um weight=0.0301mg f_press=0.680MPa temp=23.9C board=11
+2026-09-15 09:58:15 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 09:59:54 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8595 dot_dia=210.2um weight=0.0295mg f_press=0.688MPa temp=24.0C board=11
+2026-09-15 10:01:38 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8656 dot_dia=211.4um weight=0.0304mg f_press=0.689MPa temp=23.9C board=11
+2026-09-15 10:03:11 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8719 dot_dia=208.0um weight=0.0284mg f_press=0.705MPa temp=24.0C board=11
+2026-09-15 10:04:46 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8762 dot_dia=210.2um weight=0.0303mg f_press=0.696MPa temp=24.0C board=11
+2026-09-15 10:06:28 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8805 dot_dia=210.0um weight=0.0297mg f_press=0.700MPa temp=24.1C board=11
+2026-09-15 10:07:43 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8859 dot_dia=207.9um weight=0.0293mg f_press=0.719MPa temp=24.0C board=11
+2026-09-15 10:09:21 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8929 dot_dia=207.6um weight=0.0296mg f_press=0.700MPa temp=24.0C board=11
+2026-09-15 10:10:58 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=8972 dot_dia=213.1um weight=0.0294mg f_press=0.725MPa temp=24.1C board=11
+2026-09-15 10:12:43 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9030 dot_dia=216.0um weight=0.0277mg f_press=0.728MPa temp=24.0C board=11
+2026-09-15 10:12:43 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 10:12:43 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=11 units=900 defects=0
+2026-09-15 10:12:43 | NSW-N4-02    | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=75% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 10:14:22 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9098 dot_dia=212.7um weight=0.0274mg f_press=0.717MPa temp=24.1C board=12
+2026-09-15 10:15:40 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9138 dot_dia=204.6um weight=0.0283mg f_press=0.734MPa temp=24.0C board=12
+2026-09-15 10:17:19 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9205 dot_dia=206.2um weight=0.0288mg f_press=0.733MPa temp=24.1C board=12
+2026-09-15 10:18:56 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9266 dot_dia=212.1um weight=0.0281mg f_press=0.733MPa temp=24.0C board=12
+2026-09-15 10:20:37 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9335 dot_dia=210.3um weight=0.0290mg f_press=0.742MPa temp=23.9C board=12
+2026-09-15 10:22:19 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9385 dot_dia=211.6um weight=0.0273mg f_press=0.735MPa temp=24.0C board=12
+2026-09-15 10:23:41 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9439 dot_dia=212.0um weight=0.0276mg f_press=0.740MPa temp=23.9C board=12
+2026-09-15 10:25:23 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9479 dot_dia=213.6um weight=0.0274mg f_press=0.741MPa temp=24.1C board=12
+2026-09-15 10:26:55 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9539 dot_dia=210.9um weight=0.0284mg f_press=0.745MPa temp=24.1C board=12
+2026-09-15 10:26:55 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 10:28:16 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9605 dot_dia=205.0um weight=0.0275mg f_press=0.751MPa temp=24.1C board=12
+2026-09-15 10:28:16 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 10:29:48 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9659 dot_dia=209.2um weight=0.0277mg f_press=0.757MPa temp=24.0C board=12
+2026-09-15 10:29:48 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 10:31:10 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9716 dot_dia=207.9um weight=0.0271mg f_press=0.737MPa temp=24.1C board=12
+2026-09-15 10:32:26 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9769 dot_dia=209.9um weight=0.0273mg f_press=0.766MPa temp=24.1C board=12
+2026-09-15 10:33:47 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9815 dot_dia=202.0um weight=0.0280mg f_press=0.745MPa temp=24.1C board=12
+2026-09-15 10:35:15 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=9883 dot_dia=207.3um weight=0.0275mg f_press=0.746MPa temp=23.9C board=12
+2026-09-15 10:37:00 | NSW-N4-02    | NOTIFY  | WARN  | DISPENSE_VOLUME_LOW    | dispensed volume below lower spec limit | cycle=9940 dot_dia=198.7um weight=0.0281mg f_press=0.763MPa temp=24.1C board=12
+2026-09-15 10:37:00 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=12 units=900 defects=0
+2026-09-15 10:37:00 | NSW-N4-02    | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=96% status=PASS
+2026-09-15 10:38:44 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10003 dot_dia=200.4um weight=0.0279mg f_press=0.766MPa temp=24.0C board=13
+2026-09-15 10:38:44 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 10:38:49 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=10003 vision_score=LOW
+2026-09-15 10:40:20 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10062 dot_dia=204.0um weight=0.0277mg f_press=0.772MPa temp=24.0C board=13
+2026-09-15 10:41:43 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10106 dot_dia=201.1um weight=0.0264mg f_press=0.768MPa temp=24.1C board=13
+2026-09-15 10:43:21 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10169 dot_dia=203.7um weight=0.0274mg f_press=0.775MPa temp=24.0C board=13
+2026-09-15 10:44:42 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10213 dot_dia=205.1um weight=0.0270mg f_press=0.768MPa temp=24.1C board=13
+2026-09-15 10:46:27 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10277 dot_dia=204.0um weight=0.0265mg f_press=0.770MPa temp=24.1C board=13
+2026-09-15 10:48:00 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10334 dot_dia=204.1um weight=0.0268mg f_press=0.797MPa temp=24.1C board=13
+2026-09-15 10:49:40 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10375 dot_dia=200.1um weight=0.0254mg f_press=0.771MPa temp=23.9C board=13
+2026-09-15 10:51:00 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=10440 dot_dia=197.0um weight=0.0265mg f_press=0.804MPa temp=23.9C board=13
+2026-09-15 10:52:16 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10497 dot_dia=202.3um weight=0.0260mg f_press=0.786MPa temp=24.0C board=13
+2026-09-15 10:53:48 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10559 dot_dia=204.1um weight=0.0260mg f_press=0.790MPa temp=24.0C board=13
+2026-09-15 10:53:48 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 10:55:15 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10600 dot_dia=202.4um weight=0.0265mg f_press=0.794MPa temp=24.1C board=13
+2026-09-15 10:56:49 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=10660 dot_dia=199.1um weight=0.0265mg f_press=0.811MPa temp=23.9C board=13
+2026-09-15 10:58:28 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=10706 dot_dia=195.8um weight=0.0262mg f_press=0.805MPa temp=24.1C board=13
+2026-09-15 10:58:33 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=10706 vision_score=LOW
+2026-09-15 11:00:04 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=10747 dot_dia=201.8um weight=0.0265mg f_press=0.792MPa temp=23.9C board=13
+2026-09-15 11:01:23 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=10816 dot_dia=192.8um weight=0.0262mg f_press=0.797MPa temp=24.0C board=13
+2026-09-15 11:01:23 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 11:01:23 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=13 units=900 defects=0
+2026-09-15 11:01:23 | NSW-N4-02    | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=74% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 11:02:57 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=10871 dot_dia=199.6um weight=0.0263mg f_press=0.796MPa temp=24.0C board=14
+2026-09-15 11:04:14 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=10913 dot_dia=194.6um weight=0.0249mg f_press=0.822MPa temp=23.9C board=14
+2026-09-15 11:04:19 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=10913 vision_score=LOW
+2026-09-15 11:05:46 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=10963 dot_dia=194.3um weight=0.0244mg f_press=0.817MPa temp=23.9C board=14
+2026-09-15 11:07:31 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11023 dot_dia=203.0um weight=0.0252mg f_press=0.827MPa temp=24.1C board=14
+2026-09-15 11:07:31 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 11:09:00 | NSW-N4-02    | PROCESS | INFO  | DISPENSE_CYCLE_OK      | cycle=11064 dot_dia=201.7um weight=0.0253mg f_press=0.813MPa temp=23.9C board=14
+2026-09-15 11:10:44 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11104 dot_dia=193.4um weight=0.0241mg f_press=0.835MPa temp=24.1C board=14
+2026-09-15 11:12:10 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11164 dot_dia=195.8um weight=0.0248mg f_press=0.828MPa temp=24.0C board=14
+2026-09-15 11:13:55 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11224 dot_dia=198.7um weight=0.0256mg f_press=0.817MPa temp=24.0C board=14
+2026-09-15 11:15:34 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11290 dot_dia=199.0um weight=0.0249mg f_press=0.824MPa temp=23.9C board=14
+2026-09-15 11:17:13 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11330 dot_dia=189.7um weight=0.0251mg f_press=0.835MPa temp=24.0C board=14
+2026-09-15 11:18:30 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11396 dot_dia=191.5um weight=0.0238mg f_press=0.825MPa temp=23.9C board=14
+2026-09-15 11:19:57 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11439 dot_dia=191.9um weight=0.0241mg f_press=0.840MPa temp=24.0C board=14
+2026-09-15 11:21:31 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11490 dot_dia=188.3um weight=0.0247mg f_press=0.830MPa temp=24.1C board=14
+2026-09-15 11:21:36 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=11490 vision_score=LOW
+2026-09-15 11:23:11 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11542 dot_dia=190.7um weight=0.0243mg f_press=0.854MPa temp=24.1C board=14
+2026-09-15 11:23:11 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 11:24:41 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11609 dot_dia=195.7um weight=0.0234mg f_press=0.839MPa temp=24.1C board=14
+2026-09-15 11:26:00 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11669 dot_dia=197.9um weight=0.0246mg f_press=0.846MPa temp=24.1C board=14
+2026-09-15 11:27:32 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11721 dot_dia=186.8um weight=0.0231mg f_press=0.869MPa temp=24.0C board=14
+2026-09-15 11:27:32 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=14 units=900 defects=0
+2026-09-15 11:27:32 | NSW-N4-02    | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=72% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 11:29:10 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11788 dot_dia=188.4um weight=0.0241mg f_press=0.867MPa temp=24.1C board=15
+2026-09-15 11:29:15 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=11788 vision_score=LOW
+2026-09-15 11:30:32 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11846 dot_dia=186.9um weight=0.0231mg f_press=0.866MPa temp=24.0C board=15
+2026-09-15 11:32:16 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11907 dot_dia=192.6um weight=0.0236mg f_press=0.882MPa temp=23.9C board=15
+2026-09-15 11:32:21 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=11907 vision_score=LOW
+2026-09-15 11:33:54 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=11954 dot_dia=188.9um weight=0.0242mg f_press=0.871MPa temp=24.0C board=15
+2026-09-15 11:35:37 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12016 dot_dia=188.1um weight=0.0232mg f_press=0.860MPa temp=24.0C board=15
+2026-09-15 11:35:37 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 11:35:37 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 11:37:03 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12081 dot_dia=186.0um weight=0.0240mg f_press=0.884MPa temp=24.0C board=15
+2026-09-15 11:38:31 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12136 dot_dia=191.4um weight=0.0228mg f_press=0.868MPa temp=24.0C board=15
+2026-09-15 11:39:55 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12184 dot_dia=190.7um weight=0.0223mg f_press=0.878MPa temp=23.9C board=15
+2026-09-15 11:40:00 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=12184 vision_score=LOW
+2026-09-15 11:41:27 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12252 dot_dia=190.1um weight=0.0233mg f_press=0.871MPa temp=24.1C board=15
+2026-09-15 11:42:42 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12293 dot_dia=191.4um weight=0.0230mg f_press=0.895MPa temp=23.9C board=15
+2026-09-15 11:44:14 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12357 dot_dia=186.4um weight=0.0232mg f_press=0.886MPa temp=23.9C board=15
+2026-09-15 11:45:33 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12418 dot_dia=186.5um weight=0.0227mg f_press=0.888MPa temp=24.0C board=15
+2026-09-15 11:47:07 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12476 dot_dia=183.2um weight=0.0230mg f_press=0.899MPa temp=23.9C board=15
+2026-09-15 11:48:52 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12540 dot_dia=191.7um weight=0.0228mg f_press=0.883MPa temp=23.9C board=15
+2026-09-15 11:48:52 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 11:48:57 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=12540 vision_score=LOW
+2026-09-15 11:50:18 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12592 dot_dia=186.6um weight=0.0226mg f_press=0.888MPa temp=24.1C board=15
+2026-09-15 11:51:34 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12652 dot_dia=181.7um weight=0.0225mg f_press=0.884MPa temp=24.1C board=15
+2026-09-15 11:51:34 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=15 units=900 defects=0
+2026-09-15 11:51:34 | NSW-N4-02    | EVENT   | INFO  | PAT_ALIGN_BOARD        | pattern_id=0 score=96% status=PASS
+2026-09-15 11:53:07 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12712 dot_dia=187.4um weight=0.0216mg f_press=0.905MPa temp=24.0C board=16
+2026-09-15 11:53:12 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=12712 vision_score=LOW
+2026-09-15 11:54:30 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12779 dot_dia=185.6um weight=0.0228mg f_press=0.901MPa temp=24.0C board=16
+2026-09-15 11:56:13 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12821 dot_dia=180.9um weight=0.0219mg f_press=0.913MPa temp=23.9C board=16
+2026-09-15 11:57:32 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12868 dot_dia=187.0um weight=0.0216mg f_press=0.900MPa temp=23.9C board=16
+2026-09-15 11:58:50 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12934 dot_dia=181.1um weight=0.0217mg f_press=0.913MPa temp=23.9C board=16
+2026-09-15 12:00:09 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=12992 dot_dia=185.4um weight=0.0211mg f_press=0.919MPa temp=23.9C board=16
+2026-09-15 12:00:14 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=12992 vision_score=LOW
+2026-09-15 12:01:53 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13032 dot_dia=184.6um weight=0.0224mg f_press=0.908MPa temp=24.0C board=16
+2026-09-15 12:01:53 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 12:03:34 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13099 dot_dia=182.6um weight=0.0208mg f_press=0.915MPa temp=24.1C board=16
+2026-09-15 12:05:02 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13160 dot_dia=186.3um weight=0.0219mg f_press=0.929MPa temp=23.9C board=16
+2026-09-15 12:05:07 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=13160 vision_score=LOW
+2026-09-15 12:06:38 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13212 dot_dia=183.3um weight=0.0212mg f_press=0.922MPa temp=23.9C board=16
+2026-09-15 12:06:38 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 12:06:43 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=13212 vision_score=LOW
+2026-09-15 12:08:09 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13255 dot_dia=181.1um weight=0.0212mg f_press=0.944MPa temp=23.9C board=16
+2026-09-15 12:08:09 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 12:09:43 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13310 dot_dia=181.6um weight=0.0216mg f_press=0.917MPa temp=23.9C board=16
+2026-09-15 12:11:15 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13366 dot_dia=184.2um weight=0.0216mg f_press=0.949MPa temp=24.0C board=16
+2026-09-15 12:12:52 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13418 dot_dia=184.1um weight=0.0204mg f_press=0.941MPa temp=24.1C board=16
+2026-09-15 12:14:36 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13473 dot_dia=176.0um weight=0.0211mg f_press=0.953MPa temp=23.9C board=16
+2026-09-15 12:15:53 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13535 dot_dia=179.0um weight=0.0213mg f_press=0.937MPa temp=23.9C board=16
+2026-09-15 12:15:53 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 12:15:53 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=16 units=900 defects=0
+2026-09-15 12:15:53 | NSW-N4-02    | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=70% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 12:17:11 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13588 dot_dia=176.5um weight=0.0204mg f_press=0.948MPa temp=24.1C board=17
+2026-09-15 12:17:16 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=13588 vision_score=LOW
+2026-09-15 12:18:46 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13647 dot_dia=179.7um weight=0.0201mg f_press=0.954MPa temp=24.0C board=17
+2026-09-15 12:20:25 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13704 dot_dia=179.5um weight=0.0205mg f_press=0.942MPa temp=23.9C board=17
+2026-09-15 12:21:49 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13771 dot_dia=177.5um weight=0.0207mg f_press=0.959MPa temp=23.9C board=17
+2026-09-15 12:23:18 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13836 dot_dia=173.9um weight=0.0209mg f_press=0.970MPa temp=24.0C board=17
+2026-09-15 12:24:55 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13901 dot_dia=176.6um weight=0.0194mg f_press=0.969MPa temp=24.0C board=17
+2026-09-15 12:25:00 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=13901 vision_score=LOW
+2026-09-15 12:26:39 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=13960 dot_dia=174.8um weight=0.0193mg f_press=0.969MPa temp=24.0C board=17
+2026-09-15 12:28:06 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14030 dot_dia=179.2um weight=0.0199mg f_press=0.972MPa temp=24.0C board=17
+2026-09-15 12:28:06 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 12:28:11 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=14030 vision_score=LOW
+2026-09-15 12:29:36 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14079 dot_dia=178.3um weight=0.0193mg f_press=0.968MPa temp=24.1C board=17
+2026-09-15 12:31:07 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14126 dot_dia=172.7um weight=0.0193mg f_press=0.974MPa temp=23.9C board=17
+2026-09-15 12:32:24 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14184 dot_dia=174.3um weight=0.0200mg f_press=0.995MPa temp=24.0C board=17
+2026-09-15 12:32:29 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=14184 vision_score=LOW
+2026-09-15 12:34:01 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14253 dot_dia=173.2um weight=0.0189mg f_press=0.962MPa temp=24.1C board=17
+2026-09-15 12:35:42 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14311 dot_dia=171.9um weight=0.0196mg f_press=0.973MPa temp=24.1C board=17
+2026-09-15 12:35:47 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=14311 vision_score=LOW
+2026-09-15 12:37:13 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14376 dot_dia=172.5um weight=0.0186mg f_press=0.969MPa temp=24.1C board=17
+2026-09-15 12:38:45 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14434 dot_dia=176.3um weight=0.0193mg f_press=1.000MPa temp=24.1C board=17
+2026-09-15 12:38:45 | NSW-N4-02    | EVENT   | INFO  | PURGE_STAGE            | purge_count=3 status=PASS
+2026-09-15 12:38:45 | NSW-N4-02    | PROCESS | INFO  | BOARD_COMPLETE         | board=17 units=900 defects=0
+2026-09-15 12:38:45 | NSW-N4-02    | EXCEP   | WARN  | PAT_ALIGN_BOARD        | pattern_id=0 score=77% status=FAIL skip_prompt=TRUE unit_bypassed
+2026-09-15 12:40:30 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14489 dot_dia=178.0um weight=0.0194mg f_press=1.002MPa temp=24.1C board=18
+2026-09-15 12:40:35 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=14489 vision_score=LOW
+2026-09-15 12:42:05 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14542 dot_dia=175.6um weight=0.0186mg f_press=1.005MPa temp=24.1C board=18
+2026-09-15 12:42:05 | NSW-N4-02    | EVENT   | INFO  | NEEDLE_CLEAN           | vac_time=800ms post_vac=500ms count=3 status=PASS
+2026-09-15 12:43:20 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14605 dot_dia=171.0um weight=0.0185mg f_press=1.004MPa temp=24.0C board=18
+2026-09-15 12:43:25 | NSW-N4-02    | NOTIFY  | WARN  | MISSING_DOT            | unit skipped, cycle=14605 vision_score=LOW
+2026-09-15 12:45:04 | NSW-N4-02    | NOTIFY  | WARN  | DOT_SIZE_OUT_OF_SPEC   | spec=200-240um | cycle=14650 dot_dia=169.8um weight=0.0185mg f_press=0.986MPa temp=24.0C board=18
+2026-09-15 12:45:04 | NSW-N4-02    | ALARM   | ERROR | NOZZLE_CLOG_DETECTED   | no material detected at nozzle, dispensing halted | cycle=14650 dot_dia=169.8um weight=0.0185mg f_press=0.986MPa temp=24.0C board=18
+2026-09-15 12:45:04 | NSW-N4-02    | PROCESS | ERROR | PROCESS_STOP           | operator intervention required, cycle=14650
+2026-09-15 12:47:18 | NSW-N4-02    | SYSTEM  | INFO  | SYSTEM_SHUTDOWN        | operator logged out
